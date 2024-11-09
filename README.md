@@ -43,7 +43,7 @@ To start the development server:
 # Build the widget
 npm run build:widget
 
-# Install serve globally (if not already installed)
+# To Install serve globally (if not already installed)
 npm install -g serve
 
 # Start the server
