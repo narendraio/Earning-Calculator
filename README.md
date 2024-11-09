@@ -2,8 +2,6 @@
 
 An embeddable earnings calendar widget that displays company earnings releases in an organized weekly view. The widget includes company logos, before/after market timing, and interactive features.
 
-![Earnings Calendar Widget](screenshot.png)
-
 ## Features
 
 -   Weekly view of earnings releases
@@ -25,7 +23,7 @@ Before you begin, ensure you have installed:
 1. Clone the repository:
 
 ```bash
-git clone [your-repository-url]
+git clone https://github.com/narendraio/Earning-Calculator
 cd earnings-calendar-widget
 ```
 
@@ -33,6 +31,17 @@ cd earnings-calendar-widget
 
 ```bash
 npm install
+```
+
+# Environment Variables Setup
+
+## Quick Start
+
+1. Create a `.env` file in the root directory of your project
+2. Add your API key:
+
+```
+REACT_APP_API_KEY=your_benzinga_api_key_here
 ```
 
 ## Development

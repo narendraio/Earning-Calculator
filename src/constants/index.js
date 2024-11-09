@@ -1,4 +1,5 @@
-export const API_KEY = "f090a778d74f4450a11ad417ad72740c";
+console.log(process.env.REACT_APP_API_KEY);
+export const API_KEY = process.env.REACT_APP_API_KEY;
 export const DAYS_OF_WEEK = [
     "Monday",
     "Tuesday",
