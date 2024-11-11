@@ -50,13 +50,10 @@ To start the development server:
 
 ```bash
 # Build the widget
-npm run build:widget
+npm run buil
 
 # To Install serve globally (if not already installed)
-npm install -g serve
-
-# Start the server
-serve -s build
+npm run serve
 ```
 
 The application will be available at `http://localhost:3000`.
