@@ -50,7 +50,7 @@ To start the development server:
 
 ```bash
 # Build the widget
-npm run buil
+npm run build
 
 # To Install serve globally (if not already installed)
 npm run serve
